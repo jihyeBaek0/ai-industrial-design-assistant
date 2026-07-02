@@ -1,8 +1,22 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
-## [Unreleased]
+## [0.3.0] - Open Source Maintenance Improvements
+### Added
+
+- GitHub issue templates for bug reports and feature requests
+- Pull request template
+- Python CI workflow with GitHub Actions
+- Pytest-based automated tests
+- CI status badge in README
+- Testing instructions in README
+
+### Fixed
+
+- Updated Python CI workflow syntax
+
 ## [0.2.0] - Initial Open Source Prototype
+
 
 ### Added
 
