@@ -32,13 +32,7 @@ jobs:
           python -m compileall app.py design_generator.py
 
       - name: Check Flask app import
-        run: |
-          python - <<'PY'
-          from app import app
+        run: python -c "from app import app; assert app is not None; print('Flask app imported successfully')"
 
-          assert app is not None
-          print("Flask app imported successfully")
-          PY
-                - name: Run tests
-        run: |
-          python -m pytest
+      - name: Run tests
+        run: python -m pytest
