@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>AI Industrial Design Assistant</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <main class="page">
+        <section class="hero">
+            <h1>AI Industrial Design Assistant</h1>
+            <p>Generate professional industrial design documents with AI.</p>
+        </section>
+
+        <section class="input-section">
+            <label for="idea">Enter your product idea or design competition topic</label>
+            <textarea
+                id="idea"
+                rows="5"
+                placeholder="Example: A portable air purifier for small apartments"
+            ></textarea>
+
+            <button id="generateBtn" type="button">Generate</button>
+        </section>
+
+        <section id="results" class="results"></section>
+    </main>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
