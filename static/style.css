@@ -99,6 +99,12 @@ button:hover {
     transform: translateY(-1px);
 }
 
+button:disabled {
+    opacity: 0.7;
+    cursor: not-allowed;
+    transform: none;
+}
+
 .results {
     display: grid;
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -148,6 +154,38 @@ button:hover {
     text-align: center;
 }
 
+.actions-card {
+    grid-column: 1 / -1;
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 22px;
+    padding: 24px;
+    box-shadow: var(--shadow);
+    text-align: center;
+}
+
+.actions-card h2 {
+    margin: 0 0 10px;
+    font-size: 1.25rem;
+}
+
+.actions-card p {
+    margin: 0 auto 18px;
+    max-width: 560px;
+    color: var(--text-muted);
+    line-height: 1.6;
+}
+
+.secondary-button {
+    width: auto;
+    min-width: 220px;
+    background: var(--text-main);
+}
+
+.secondary-button:hover {
+    background: #111827;
+}
+
 @media (max-width: 760px) {
     .page {
         padding: 36px 0;
@@ -163,7 +201,13 @@ button:hover {
     }
 
     .result-card,
-    .message-card {
+    .message-card,
+    .actions-card {
         padding: 22px;
+    }
+
+    .secondary-button {
+        width: 100%;
+        min-width: 0;
     }
 }
