@@ -39,3 +39,6 @@ jobs:
           assert app is not None
           print("Flask app imported successfully")
           PY
+                - name: Run tests
+        run: |
+          python -m pytest
