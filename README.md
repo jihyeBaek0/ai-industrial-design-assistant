@@ -203,7 +203,7 @@ To run the test suite locally:
 python -m pytest
 ## Current Version
 
-### v0.2.0
+### v0.3.0
 
 Current status:
 
@@ -214,6 +214,10 @@ Current status:
 - Markdown export feature added
 - Project documentation added
 - Contribution guidelines added
+- Issue and pull request templates added
+- Pytest-based automated tests added
+- GitHub Actions CI workflow added
+- CI status badge added to README
 - OpenAI API integration planned for a future version
 
 ## Roadmap
