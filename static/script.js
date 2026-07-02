@@ -1,5 +1,6 @@
 const generateButton = document.getElementById("generateBtn");
 const ideaInput = document.getElementById("idea");
+const projectTypeInput = document.getElementById("projectType");
 const resultsContainer = document.getElementById("results");
 
 let latestGeneratedData = null;
@@ -7,7 +8,7 @@ let latestIdea = "";
 
 generateButton.addEventListener("click", async () => {
     const idea = ideaInput.value.trim();
-
+    const projectType = projectTypeInput.value;
     if (!idea) {
         latestGeneratedData = null;
         latestIdea = "";
@@ -39,7 +40,10 @@ generateButton.addEventListener("click", async () => {
             headers: {
                 "Content-Type": "application/json"
             },
-            body: JSON.stringify({ idea: idea })
+            body: JSON.stringify({
+                idea: idea,
+                project_type: projectType
+            })
         });
 
         const data = await response.json();

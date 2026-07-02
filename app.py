@@ -14,8 +14,9 @@ def home():
 def generate_design_document():
     data = request.get_json()
     idea = data.get("idea", "").strip()
+    project_type = data.get("project_type", "Product Idea").strip()
 
-    result = generate_placeholder_design_document(idea)
+    result = generate_placeholder_design_document(idea, project_type)
 
     return jsonify(result)
 

@@ -1,4 +1,4 @@
-def generate_placeholder_design_document(idea):
+def generate_placeholder_design_document(idea, project_type="Product Idea"):
     """
     Generate a placeholder industrial design document.
 
@@ -9,9 +9,12 @@ def generate_placeholder_design_document(idea):
     if not idea:
         idea = "A new product idea"
 
+    if not project_type:
+        project_type = "Product Idea"
+
     return {
         "Design Brief": (
-            f"Create an industrial design concept based on: {idea}. "
+            f"Project Type: {project_type}. Create an industrial design concept based on: {idea}. "
             "The goal is to develop a useful, human-centered, and visually refined product."
         ),
         "Target User": (
@@ -61,7 +64,7 @@ def generate_placeholder_design_document(idea):
             )
         },
         "Product Concept": (
-            f"A refined product concept inspired by '{idea}', combining usability, "
+            f"A refined {project_type.lower()} concept inspired by '{idea}', combining usability, "
             "emotional value, and modern industrial design language."
         ),
         "Rendering Prompt": (
