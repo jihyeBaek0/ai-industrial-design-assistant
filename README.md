@@ -193,7 +193,14 @@ Then open:
 ```text
 http://127.0.0.1:5000/
 ```
+## Running Tests
 
+This project uses pytest for automated testing.
+
+To run the test suite locally:
+
+```bash
+python -m pytest
 ## Current Version
 
 ### v0.2.0
