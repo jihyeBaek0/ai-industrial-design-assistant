@@ -34,7 +34,11 @@ Version 1 also includes:
 - Markdown export for generated design documents
 - Placeholder generation system prepared for future OpenAI API integration
 
+## Documentation
 
+- [Project Overview](docs/project-overview.md)
+- [Design Workflow](docs/design-workflow.md)
+- [Sample Output](examples/sample-output.md)
 ## Tech Stack
 
 - Python
