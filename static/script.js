@@ -69,7 +69,7 @@ function formatContent(content) {
         `;
     }
 
-    if (typeof content === "object") {
+    if (typeof content === "object" && content !== null) {
         return `
             <ul>
                 ${Object.entries(content)
