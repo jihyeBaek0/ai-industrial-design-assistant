@@ -15,6 +15,10 @@ This tool aims to support the early design process by helping users quickly gene
 ## Preview
 
 ![AI Industrial Design Assistant Screenshot](docs/assets/app-screenshot.png)
+
+## Demo
+
+![AI Industrial Design Assistant Demo](docs/assets/demo.gif)
 ## Features
 
 Version 1 can generate placeholder content for:
