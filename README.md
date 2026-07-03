@@ -237,6 +237,14 @@ Current status:
 - Live Demo link added
 - Deployment guide added
 - Demo GIF added to README
+## Current Limitations
+
+This project is currently in an early prototype stage.
+
+- The current version uses structured placeholder generation instead of live OpenAI API output.
+- Market research content is not yet based on real-time external sources.
+- Generated design documents should be reviewed and refined by designers before professional use.
+- The live demo is deployed on a free Render instance, so it may take a few seconds to wake up when inactive.
 ## Roadmap
 
 Planned improvements:
