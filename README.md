@@ -1,5 +1,8 @@
 # AI Industrial Design Assistant
 ![Python CI](https://github.com/jihyeBaek0/ai-industrial-design-assistant/actions/workflows/python-ci.yml/badge.svg)
+## Live Demo
+
+[Open the deployed app](https://ai-industrial-design-assistant.onrender.com/)
 AI Industrial Design Assistant is an open-source web application that helps industrial designers, product design students, and design competition participants generate structured design project documents from a simple product idea or competition topic.
 
 The project currently runs with placeholder data in Version 1. Future versions will connect to the OpenAI API to generate more advanced and customized design outputs.
