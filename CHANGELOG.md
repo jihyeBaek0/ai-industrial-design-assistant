@@ -1,6 +1,15 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.5.0] - OpenAI Integration Planning
+
+### Added
+
+- OpenAI integration plan documentation
+- README link to OpenAI integration plan
+- Future architecture plan for replacing placeholder generation with AI-generated output
+- Environment variable usage plan for API key handling
+- Future prompt strategy for industrial design document generation
 ## [0.4.0] - Project Type Selection
 
 ### Added
