@@ -216,7 +216,7 @@ To run the test suite locally:
 python -m pytest
 ## Current Version
 
-### v0.6.0
+### v0.7.0
 
 Current status:
 - Project type selection added
@@ -236,6 +236,7 @@ Current status:
 - Public Render deployment added
 - Live Demo link added
 - Deployment guide added
+- Demo GIF added to README
 ## Roadmap
 
 Planned improvements:
