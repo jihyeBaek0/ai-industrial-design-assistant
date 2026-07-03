@@ -3,7 +3,8 @@
 All notable changes to this project will be documented in this file.
 ## [0.3.0] - Open Source Maintenance Improvements
 ### Added
-
+- Project type selection for Product Idea and Design Competition Topic
+- Test coverage for project type selection
 - GitHub issue templates for bug reports and feature requests
 - Pull request template
 - Python CI workflow with GitHub Actions
