@@ -35,7 +35,7 @@ Version 1 also includes:
 - Placeholder generation system prepared for future OpenAI API integration
 
 ## Documentation
-
+- [Codex Application Draft](docs/codex-application-draft.md)
 - [Project Overview](docs/project-overview.md)
 - [Design Workflow](docs/design-workflow.md)
 - [OpenAI Integration Plan](docs/openai-integration-plan.md)
