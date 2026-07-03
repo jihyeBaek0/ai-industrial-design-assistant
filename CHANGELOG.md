@@ -1,6 +1,15 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.6.0] - Public Deployment
+
+### Added
+
+- Public Render deployment
+- Live Demo link in README
+- Live Demo link in GitHub repository About section
+- Deployment configuration with Procfile and gunicorn
+- Deployment guide documentation
 ## [0.5.0] - OpenAI Integration Planning
 
 ### Added
