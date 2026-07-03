@@ -38,6 +38,7 @@ Version 1 also includes:
 
 - [Project Overview](docs/project-overview.md)
 - [Design Workflow](docs/design-workflow.md)
+- [OpenAI Integration Plan](docs/openai-integration-plan.md)
 - [Sample Output](examples/sample-output.md)
 ## Tech Stack
 
