@@ -212,7 +212,7 @@ To run the test suite locally:
 python -m pytest
 ## Current Version
 
-### v0.5.0
+### v0.6.0
 
 Current status:
 - Project type selection added
@@ -229,6 +229,9 @@ Current status:
 - CI status badge added to README
 - OpenAI API integration planned for a future version
 - OpenAI integration plan added
+- Public Render deployment added
+- Live Demo link added
+- Deployment guide added
 ## Roadmap
 
 Planned improvements:
