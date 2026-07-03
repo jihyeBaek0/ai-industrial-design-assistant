@@ -29,7 +29,7 @@ Version 1 can generate placeholder content for:
 - Presentation Script
 
 Version 1 also includes:
-
+- Project type selection for Product Idea and Design Competition Topic
 - Responsive card-based interface
 - Markdown export for generated design documents
 - Placeholder generation system prepared for future OpenAI API integration
@@ -210,7 +210,7 @@ python -m pytest
 ### v0.3.0
 
 Current status:
-
+- Project type selection added
 - Flask app setup completed
 - Responsive web interface created
 - Placeholder design document generator implemented
