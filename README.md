@@ -207,7 +207,7 @@ To run the test suite locally:
 python -m pytest
 ## Current Version
 
-### v0.3.0
+### v0.4.0
 
 Current status:
 - Project type selection added
