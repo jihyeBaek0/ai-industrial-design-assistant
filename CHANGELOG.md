@@ -1,6 +1,14 @@
 # Changelog
 
 All notable changes to this project will be documented in this file.
+## [0.7.0] - Demo GIF
+
+### Added
+
+- Demo GIF showing the main app workflow
+- Demo section in README
+- Updated visual project preview for GitHub visitors
+
 ## [0.6.0] - Public Deployment
 
 ### Added
